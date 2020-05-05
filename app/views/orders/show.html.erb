@@ -21,10 +21,14 @@
       </thead>
       <tbody>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <% @line_items.each do |item| %>
 =======
         <% @order.line_items.each do |item| %>
 >>>>>>> c2417541132170ac96efd506eaf66316d37a65f5
+=======
+ <% @line_items.each do |item| %>
+>>>>>>> b031a67308292940e8df6262d3abc956310214da
           <%= render 'line_item', product: item.product, quantity: item.quantity.to_i %>
         <% end %>
       </tbody>
